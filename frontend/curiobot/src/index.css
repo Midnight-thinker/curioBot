@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+body {
+  font-family: 'Outfit', sans-serif;
+  @apply transition-colors duration-300;
+}
+* {
+  @apply transition-colors duration-300;
+}
